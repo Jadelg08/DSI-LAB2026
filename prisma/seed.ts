@@ -19,7 +19,8 @@ async function main() {
     data: {
       name: 'Admin User',
       email: 'admin@email.com',
-      tenantId: tenant.id
+      password: '123456', 
+      tenantId: tenant.id,
     }
   })
 
