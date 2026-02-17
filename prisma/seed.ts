@@ -19,8 +19,9 @@ async function main() {
     data: {
       name: 'Admin User',
       email: 'admin@email.com',
-      password: '123456', 
+       password:hashedPassword,
       tenantId: tenant.id,
+      
     }
   })
 
